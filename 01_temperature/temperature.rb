@@ -4,5 +4,5 @@ def ftoc(temp)
 end
 
 def ctof(temp)
-  return temp.to_i / (5.to_f / 9.to_f) + 32
+  temp.to_i / (5.to_f / 9.to_f) + 32
 end
